@@ -83,31 +83,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "posts-grid.blade.php",
-			"settings":
-			{
-				"buffer_size": 321,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "post-card.blade.php",
-			"settings":
-			{
-				"buffer_size": 2078,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "layout.blade.php",
-			"settings":
-			{
-				"buffer_size": 2528,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -129,6 +104,18 @@
 				"Package Control: Remove Package"
 			],
 			[
+				"eslin",
+				"ESLint"
+			],
+			[
+				"eslint",
+				"ESLint"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
 				"php",
 				"PHPCompanion:Expand Fully Qualified Class Name"
 			],
@@ -143,10 +130,6 @@
 			[
 				"phpcom",
 				"PHPCompanion:Expand Fully Qualified Class Name"
-			],
-			[
-				"instal",
-				"Package Control: Install Package"
 			]
 		],
 		"width": 0.0
@@ -169,17 +152,30 @@
 	},
 	"expanded_folders":
 	[
-		"/srv/http/blog",
-		"/srv/http/blog/resources",
-		"/srv/http/blog/resources/views",
-		"/srv/http/blog/resources/views/components"
+		"/run/media/harut/hard/projects/podval",
+		"/run/media/harut/hard/projects/podval/js"
 	],
 	"file_history":
 	[
+		"/run/media/harut/hard/projects/podval/js/script.js",
+		"/run/media/harut/hard/projects/podval/.eslintrc",
+		"/home/harut/.config/sublime-text-3/Packages/ESLint/ESLint.sublime-settings",
+		"/run/media/harut/hard/projects/podval/index.html",
+		"/srv/http/pasha/admin.php",
+		"/srv/http/pasha/getFile.php",
+		"/srv/http/pasha/action.php",
+		"/srv/http/pasha/index.php",
+		"/srv/http/pasha/script.js",
+		"/run/media/harut/hard/xampp/htdocs/r2/harut-script.js",
+		"/srv/http/pasha/parts/header.php",
+		"/run/media/harut/hard/xampp/htdocs/r2/action.php",
+		"/run/media/harut/hard/xampp/htdocs/r2/mail.php",
+		"/run/media/harut/hard/xampp/htdocs/r2/reg.php",
+		"/srv/http/blog/routes/web.php",
+		"/srv/http/blog/resources/views/components/posts-grid.blade.php",
 		"/srv/http/blog/resources/views/components/featured-card.blade.php",
 		"/srv/http/blog/resources/views/components/post-card.blade.php",
 		"/srv/http/blog/resources/views/posts.blade.php",
-		"/srv/http/blog/resources/views/components/posts-grid.blade.php",
 		"/run/media/harut/hard/projects/opros-3/index.html",
 		"/home/harut/Downloads/Laravel-From-Scratch-HTML-CSS-main/index.html",
 		"/srv/http/blog/resources/views/_posts-header.blade.php",
@@ -188,7 +184,6 @@
 		"/run/media/harut/hard/projects/test/index.html",
 		"/srv/http/blog/resources/views/components/layout.blade.php",
 		"/srv/http/blog/resources/views/components/post-featured-card.blade.php",
-		"/srv/http/blog/routes/web.php",
 		"/home/harut/.config/sublime-text-3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
 		"/srv/http/blog/resources/views/components/_posts-header.blade.php",
 		"/srv/http/blog/vendor/itsgoingd/clockwork/Clockwork/Web/public/index.html",
@@ -199,11 +194,8 @@
 		"/run/media/harut/hard/projects/archive/src/index.html",
 		"/run/media/harut/hard/projects/archive/src/less/style.less",
 		"/run/media/harut/hard/projects/archive/src/less/design.less",
-		"/srv/http/pasha/admin.php",
-		"/srv/http/pasha/index.php",
 		"/srv/http/pasha/db.php",
 		"/srv/http/pasha/init.php",
-		"/srv/http/pasha/parts/header.php",
 		"/run/media/harut/hard/projects/opros-2/css/style.css",
 		"/srv/http/blog/app/Models/User.php",
 		"/home/harut/.config/sublime-text-3/Packages/User/PHP Companion.sublime-settings",
@@ -234,7 +226,7 @@
 	],
 	"find":
 	{
-		"height": 82.0
+		"height": 37.0
 	},
 	"find_in_files":
 	{
@@ -281,103 +273,14 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "posts-grid.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 321,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								293,
-								293
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "post-card.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2078,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								945,
-								945
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 114.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "layout.blade.php",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 2528,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								820,
-								820
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 30.0
+		"height": 37.0
 	},
 	"input":
 	{
@@ -410,6 +313,10 @@
 	{
 		"height": 0.0
 	},
+	"output.exec":
+	{
+		"height": 488.0
+	},
 	"output.find_results":
 	{
 		"height": 0.0
@@ -422,7 +329,7 @@
 	"project": "layout.blade.sublime-project",
 	"replace":
 	{
-		"height": 56.0
+		"height": 70.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -528,7 +435,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 413.0,
+	"side_bar_width": 326.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
